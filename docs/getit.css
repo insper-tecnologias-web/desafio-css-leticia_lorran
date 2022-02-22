@@ -25,6 +25,13 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+
+  height: 100%;
+  width:100%;
+
+  display: flex;
+  flex-grow: 5;
+  flex-direction: column;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
@@ -78,3 +85,205 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+
+.appbar {
+
+  display: flex;
+  
+  padding: 0.5rem 0 0.5rem 0.4rem;
+  align-items: center;
+
+  background-color: #f7d736;
+  border: none;
+
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.subtitle {
+
+  padding-left: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  height: 80%;
+
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  width: 35%; 
+  height: 20%;
+
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+
+  margin-top: 1.5rem;
+}
+
+.form-card-title {
+
+  display: flex;
+  height: 10%;
+
+  padding: 0.1rem 0 0.1rem 0.3rem;
+
+  font-weight: 600;
+  font-size:medium;
+  border: none;
+
+  margin: 0.2rem 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.autoresize {
+  
+  display: flex;
+  height: 50%;
+
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+
+  padding: 0.3rem 0 0 0.3rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.6rem;
+  border: none;
+}
+
+.btn {
+  height: 43%;
+
+  border-radius: 2px;
+  border-width: 0;
+  outline: none;
+
+  background-color: #f7d736;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  
+  margin-top: 0.5rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 95%;
+  height: 60%;
+  margin-top: 2rem;
+  padding-top: 0.4rem;
+
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.6);
+
+  border-radius: 0.2rem;
+
+  width: 15%;
+  height: 38%;
+  padding: 0.2rem;
+
+  margin: 0 0.4rem;
+
+  justify-content: space-around;
+}
+
+.card-title {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+}
+
+.card-content {
+  font-family: 'Permanent Marker', cursive;
+  font-size: small;
+  color: #4c4c4c;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color:  #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(-2deg)
+}
+
+.card-rotation-2 {
+  transform: rotate(3deg)
+}
+
+.card-rotation-3 {
+  transform: rotate(2deg)
+}
+
+.card-rotation-4 {
+  transform: rotate(3deg)
+}
+
+.card-rotation-5 {
+  transform: rotate(-3deg)
+}
+
+.card-rotation-6 {
+  transform: rotate(3deg)
+}
+
+.card-rotation-7 {
+  transform: rotate(-2deg)
+}
+
+.card-rotation-8 {
+  transform: rotate(3deg)
+}
+
+.card-rotation-9 {
+  transform: rotate(2deg)
+}
+
+.card-rotation-10 {
+  transform: rotate(-3deg)
+}
+
+.card-rotation-11 {
+  transform: rotate(3deg)
+}
