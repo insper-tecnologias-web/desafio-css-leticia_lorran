@@ -2,8 +2,8 @@
 
 DUPLA:
 
-- DIGITE O NOME DO PRIMEIRO INTEGRANTE
-- DIGITE O NOME DO SEGUNDO INTEGRANTE
+- Leticia Coêlho Barbosa
+- Lorran Caetano Machado Lopes
 - Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://insper-tecnologias-web.github.io/desafio-css/)
 
 ## Desafio CSS
