@@ -25,15 +25,99 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
+
+.logo {
+  /* justify-content: "flex-start"; */
+  width: 4rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+}
+
+.appbar{
+  background-color: #f7d736;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+}
+
+.subtitle{
+  align-items: center;
+  font-size: small;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-bottom:  1 rem; */
+  font-family: 'Roboto', sans-serif;
+  height: 90%; 
+  
+
+}
+
+.form-card{
+  padding-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  padding-bottom:  0.7 rem;
+  width: 35%;
+  height: 20%;
+}
+
+
+.form-card-title{
+  display: flex;
+  align-items: flex-start;
+  font-size: medium;
+  width: 95%;
+  border: 0; 
+}
+
+.autoresize{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  font-size:1vw;
+  border: 0;
+  width: 95%;
+  padding-bottom:  1 rem;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .btn{
+  background-color:  #f7d736;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 0.4rem;
+  border-color: #ffff;
+  border-width: 0.1rem;
+} */
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
+  margin-bottom: 0.7rem;
   padding: 10px 15px;
-
+  width: 95%;
   overflow: hidden;
 
   border-width: 0;
@@ -44,6 +128,7 @@ body {
   background-color: #f7d736;
 
   transition: background-color 0.3s;
+  padding-bottom:  1 rem;
 }
 
 .btn > * {
@@ -60,7 +145,7 @@ body {
   display: block;
   width: 0;
   padding-top: 0;
-
+  padding-bottom:  1 rem;
   border-radius: 100%;
 
   background-color: rgba(236, 240, 241, 0.3);
@@ -75,6 +160,122 @@ body {
 .btn:active:before {
   width: 120%;
   padding-top: 120%;
-
+  padding-bottom:  1 rem;
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
+
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  height: 60%;
+}
+
+.card{
+  flex-wrap: wrap;
+  text-decoration:none;
+  color:#000;
+  height:6.5em;
+  width:10em;
+  padding:1rem;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-title{
+  display: flex;
+  align-items: flex-start;
+  font-size:1.2vw;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #2c2c2c
+  
+}
+.card-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #4c4c4c;
+  font-size:1vw;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+  /* 
+  #9de0f5
+  #ef89ba
+  #fae890
+  #abe9c1
+  */
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+ background-color: #fae890;
+}
+
+.card-color-5{
+  background-color:#abe9c1 ;
+}
+
+.card-rotation-1{
+  transform: rotate(0.9deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-2.6deg);
+}
+
+.card-rotation-3{
+  transform: rotate(2.6deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2.5deg);
+}
+
+.card-rotation-5{
+  transform: rotate(-2.5deg);
+}
+
+.card-rotation-6{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-7{
+  transform: rotate(2deg);
+}
+
+.card-rotation-8{
+  transform: rotate(1.5deg);
+}
+
+.card-rotation-9{
+  transform: rotate(-1.5deg);
+}
+
+.card-rotation-10{
+  transform: rotate(1deg);
+}
+
+.card-rotation-11{
+  transform: rotate(-1deg);
+}
