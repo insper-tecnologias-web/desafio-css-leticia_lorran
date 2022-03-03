@@ -4,6 +4,7 @@ DUPLA:
 
 - Leticia Coêlho Barbosa
 - Lorran Caetano Machado Lopes
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-leticia_lorran/
 
 ## Desafio CSS
 
